@@ -1,3 +1,3 @@
 FROM nginx
-COPY ./css/. ./images/. ./js/. ./libs/font-awesome/. ./index/. /usr/share/nginx/html/.
+COPY ./css/. ./images/. ./js/. ./libs/font-awesome/. index.html /usr/share/nginx/html/.
 EXPOSE 8080
